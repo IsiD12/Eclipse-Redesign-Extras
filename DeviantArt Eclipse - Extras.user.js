@@ -5,7 +5,7 @@
 // @author       Isi-Daddy
 // @include      https://www.deviantart.com/*
 // @include      https://www.deviantart.com/notifications/watch/*
-// @version 1.0
+// @version 1.1
 // @grant          none
 // @require http://code.jquery.com/jquery-3.4.1.min.js
 // @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
