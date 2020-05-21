@@ -13,51 +13,6 @@
 
 // ==/UserScript==
 
-//Blur Image avoid
-waitForKeyElements (
-    ".ReactModal__Content",
-    pictureblur
-);
-
-function pictureblur (subj){
-    var newimg = $("div[data-hook='art_stage']").children("div").children("div:nth-child(2)").children("div").children("img").attr("src");
-    var imgage = $("div[data-hook='art_stage']").children("div").children("div:nth-child(2)").children("div").children("img");
-
-    var theImage = new Image();
-    theImage.src = newimg;
-    var imageWidth = theImage.width;
-    var imageHeight = theImage.height;
-
-    $(".ReactModal__Content div img").css({
-        "max-width": "100%",
-        "max-height": "100%",
-        "height": "auto",
-        "width": "100%"
-    });
-
-    var i = 0;
-
-    $(".ReactModal__Content div img").click(function() {
-        if(i == 0){
-            $(".ReactModal__Content div img").css({
-                "max-width": imageWidth,
-                "max-height": imageHeight,
-                "height": imageHeight,
-                "width": imageWidth
-            });
-            i = 1;
-        } else if (i == 1){
-            $(".ReactModal__Content div img").css({
-                "max-width": "100%",
-                "max-height": "100%",
-                "height": "auto",
-                "width": "100%"
-            });
-            i=0;
-        }
-    });
-}
-
 /* timestamp*/
 waitForKeyElements (
     "time",
