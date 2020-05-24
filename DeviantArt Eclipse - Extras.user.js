@@ -5,8 +5,11 @@
 // @author       Isi-Daddy
 // @include      https://www.deviantart.com/*
 // @include      https://www.deviantart.com/notifications/watch/*
-// @exclude      https://www.deviantart.com/submit/
-// @version      1.1.1
+// @exclude      https://www.deviantart.com/submit
+// @exclude      https://www.deviantart.com/submit/*
+// @exclude      https://www.deviantart.com/*/submit/*
+// @exclude      https://www.deviantart.com/*/gallery/
+// @version      1.1.2
 // @grant        none
 // @require http://code.jquery.com/jquery-3.4.1.min.js
 // @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
@@ -21,7 +24,8 @@ waitForKeyElements (
 );
 
 function klassentest (subj) {
-console.log(document.location.href.indexOf('submit'));
+
+
           var time = subj.attr("datetime").replace("T", " ").slice(0, -5);
           subj.append("<div class='time'>" + time + "</div>");
           subj.append("<div class='after'></div>");
@@ -61,4 +65,10 @@ console.log(document.location.href.indexOf('submit'));
               $(".time,.after").css({"visibility": "hidden"});
           });
 
+
+if($("._1mb9S").text() == "Featured"){
+$(this).css({"background": "red"});
+}
+
+    var favImage = "https://e.deviantart.net/emoticons/p/plusfav.gif";
 }
