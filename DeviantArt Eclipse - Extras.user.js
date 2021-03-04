@@ -5,7 +5,7 @@
 // @author       Isi-Daddy
 // @include      https://www.deviantart.com/
 // @include      https://www.deviantart.com/*
-// @version      1.1.9
+// @version      1.1.10
 // @grant GM_getValue
 // @require http://code.jquery.com/jquery-3.4.1.min.js
 // @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
@@ -97,18 +97,7 @@ $("button._2nRKR.rDcsd").remove();
 $("div._3ZzBG._3_-De._2Bu5u").append('<a class=" _2nRKR rDcsd" href="https://www.deviantart.com/notifications/notes/"><span><span class="_3HH04 _3s0_v YU6Gg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19.914 4a1 1 0 011 1v12.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 0118.5 20h-15a.5.5 0 01-.5-.5 1 1 0 01.4-.8L5 17.5l.02-11.089a1 1 0 01.29-.703l1.396-1.411A1 1 0 017.417 4h12.497zM9 11a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z"></path></svg></span>'+noteCountProfile+'<span class="_3c9b0">Chat</span></span></a>');
 
 
-
 $("button.ucOYB._1u2kK._1Q3Tp").remove();
 var user = top.location.pathname.substring(1)
-$("div.tdh7l").append('<a class="ucOYB _1u2kK _1Q3Tp" href="https://www.deviantart.com/notifications/notes/#to='+user+'">Note</a>');
-
-
-
-
-
-
-
-
-
-
+$("div.tdh7l").append('<a class="ucOYB _1u2kK _1Q3Tp" href="https://www.deviantart.com/notifications/notes/#to='+user.split('/')[0]+'">Note</a>');
 
