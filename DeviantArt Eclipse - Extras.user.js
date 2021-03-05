@@ -5,7 +5,7 @@
 // @author       Isi-Daddy
 // @include      https://www.deviantart.com/
 // @include      https://www.deviantart.com/*
-// @version      1.1.10
+// @version      1.1.11
 // @grant GM_getValue
 // @require http://code.jquery.com/jquery-3.4.1.min.js
 // @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
@@ -68,12 +68,8 @@ function klassentest (subj) {
 
 
 var noteCount = '';
-console.log("variable " + noteCount);
-console.log($("button._3ARPi._1jO0k").find("span").hasClass("_2g-3V"));
 if($("button._3ARPi._1jO0k").find("span").hasClass("_2g-3V")){
-
-console.log($("button._3ARPi._1jO0k").find("span").hasClass("_2g-3V"));
-    noteCount = '<span class="_2g-3V">' + $("span._2g-3V").text()+  '</span>' ;
+    noteCount = '<span class="_2g-3V">' + $("._3ykoX._32NlD._1DiCV span._2g-3V").text()+  '</span>' ;
 }
 //feedback
 $("button._3ARPi._1jO0k").remove();
@@ -82,7 +78,7 @@ $("div._3ykoX._32NlD._1DiCV").append('<a class="_3ARPi _1jO0k" href="https://www
 
 var noteCountChat = '';
 if($("button._1W4CQ._29ksA").find("span").hasClass("_1XPtL")){
-    noteCountChat = '<span class="_1XPtL">' + $("span._1XPtL").text()+  '</span>' ;
+    noteCountChat = '<span class="_1XPtL">' + $("._3Po3V._3-z6A.Ha0AC span._1XPtL").text()+  '</span>' ;
 }
 //chat
 $("button._1W4CQ._29ksA").remove();
@@ -90,7 +86,7 @@ $("div._3Po3V._3-z6A.Ha0AC").append('<a class="_1W4CQ _29ksA" href="https://www.
 
 var noteCountProfile = '';
 if($("button._2nRKR.rDcsd").find("span").hasClass("_1UHKo")){
-    noteCountProfile = '<span class="_1UHKo">' + $("span._1UHKo").text()+  '</span>' ;
+    noteCountProfile = '<span class="_1UHKo">' + $("._3ZzBG._3_-De._2Bu5u span._1UHKo").text()+  '</span>' ;
 }
 //profile
 $("button._2nRKR.rDcsd").remove();
@@ -100,4 +96,3 @@ $("div._3ZzBG._3_-De._2Bu5u").append('<a class=" _2nRKR rDcsd" href="https://www
 $("button.ucOYB._1u2kK._1Q3Tp").remove();
 var user = top.location.pathname.substring(1)
 $("div.tdh7l").append('<a class="ucOYB _1u2kK _1Q3Tp" href="https://www.deviantart.com/notifications/notes/#to='+user.split('/')[0]+'">Note</a>');
-
