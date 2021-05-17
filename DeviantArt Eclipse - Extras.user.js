@@ -5,7 +5,7 @@
 // @author       Isi-Daddy
 // @include      https://www.deviantart.com/
 // @include      https://www.deviantart.com/*
-// @version      1.1.12
+// @version      1.1.13
 // @grant GM_getValue
 // @require http://code.jquery.com/jquery-3.4.1.min.js
 // @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
@@ -99,22 +99,13 @@ if($("button._2VRYx._2uHE2").find("span").hasClass("ytR2V")){
     noteCountPic = '<span class="ytR2V">' + $(".Rfy8Q._2vTIN._3rpge span.ytR2V").text()+  '</span>' ;
 }
 $("button._2VRYx._2uHE2").remove();
-$("div.Rfy8Q._2vTIN._3rpge").append('<a class="_2VRYx _2uHE2" href="https://www.deviantart.com/notifications/notes/"><span><span class="_3HH04 _3s0_v YU6Gg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19.914 4a1 1 0 011 1v12.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 0118.5 20h-15a.5.5 0 01-.5-.5 1 1 0 01.4-.8L5 17.5l.02-11.089a1 1 0 01.29-.703l1.396-1.411A1 1 0 017.417 4h12.497zM9 11a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z" style="fill: currentColor;"></path></svg></span>'+noteCountPic+'<span class="_1fSuN">Chat</span></span></a>');
-
-
+$("button._33prR._3uG9L._1r-En").remove();
+$("div.Rfy8Q._2vTIN._3rpge").append('<a class="_2VRYx _2uHE2" href="https://www.deviantart.com/notifications/notes/"><span><span class="_3HH04 _3s0_v YU6Gg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 25"><path fill-rule="evenodd" d="M19.914 4a1 1 0 011 1v12.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 0118.5 20h-15a.5.5 0 01-.5-.5 1 1 0 01.4-.8L5 17.5l.02-11.089a1 1 0 01.29-.703l1.396-1.411A1 1 0 017.417 4h12.497zM9 11a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z" style="fill: currentColor;"></path></svg></span>'+noteCountPic+'<span class="_1fSuN">Chat</span></span></a>');
 
 
 $("button.ucOYB._1u2kK._1Q3Tp").remove();
 var user = top.location.pathname.substring(1)
 $("div.tdh7l").append('<a class="ucOYB _1u2kK _1Q3Tp" href="https://www.deviantart.com/notifications/notes/#to='+user.split('/')[0]+'">Note</a>');
-
-
-
-
-
-
-
-
 
 
 
