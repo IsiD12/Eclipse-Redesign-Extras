@@ -5,7 +5,7 @@
 // @author       Isi-Daddy
 // @include      https://www.deviantart.com/
 // @include      https://www.deviantart.com/*
-// @version      1.1.14
+// @version      1.1.15
 // @grant GM_getValue
 // @require http://code.jquery.com/jquery-3.4.1.min.js
 // @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
@@ -68,16 +68,11 @@ function klassentest (subj) {
 
 //feedback
 var noteCount = '';
-if($("button._76cOQ._1jO0k").find("span").hasClass("_2g-3V")){
-    noteCount = '<span class="_2g-3V">' + $("._3ykoX._32NlD._1DiCV span._2g-3V").text()+  '</span>' ;
+if($("button._1qPjE._1V7e9").find("span").hasClass("_3i5Bn")){
+    noteCount = '<span class="_3i5Bn">' + $("div._2u-H1._28mNT._2ZwRg span._3i5Bn").text()+  '</span>' ;
 }
-$("button._76cOQ._1jO0k").remove();
-$("div._3ykoX._32NlD._1DiCV").append('<a class="_76cO _1jO0k" href="https://www.deviantart.com/notifications/notes/"><span><span class="_1MJER _3N3is _3wBuq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path fill-rule="evenodd" d="M19.914 4a1 1 0 011 1v12.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 0118.5 20h-15a.5.5 0 01-.5-.5 1 1 0 01.4-.8L5 17.5l.02-11.089a1 1 0 01.29-.703l1.396-1.411A1 1 0 017.417 4h12.497zM9 11a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z"></path></svg></span>'+noteCount+'<span class="_2IZ0h">Chat</span></span></a>');
-var theColorIs = $('._1jO0k').css("color");
-$("._1MJER._3N3is._3wBuq svg").css("fill", theColorIs);
-$("._1MJER._3N3is._3wBuq").css({
-      "margin-bottom": "-10px"
-    });
+$("button._1qPjE._1V7e9").remove();
+$("div._2u-H1._28mNT._2ZwRg").append('<a class="_1qPjE _1V7e9" href="https://www.deviantart.com/notifications/notes/"><span><span class="_2eF0v _2FcoN _3Qsx6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19.914 4a1 1 0 011 1v12.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 0118.5 20h-15a.5.5 0 01-.5-.5 1 1 0 01.4-.8L5 17.5l.02-11.089a1 1 0 01.29-.703l1.396-1.411A1 1 0 017.417 4h12.497zM9 11a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z"></path></svg></span>'+noteCount+'<span class="_2_n00">Chat</span></span></a>');
 
 
 //chat
@@ -87,8 +82,8 @@ if($("button._6bR9h._29ksA").find("span").hasClass("_1XPtL")){
 }
 $("button._6bR9h._29ksA").remove();
 $("div._3Po3V._3-z6A.Ha0AC").append('<a class="_6bR9h _29ksA" href="https://www.deviantart.com/notifications/notes/"><span><span class="_2Ae1S _2JjnE _2fqBI"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path fill-rule="evenodd" d="M19.914 4a1 1 0 011 1v12.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 0118.5 20h-15a.5.5 0 01-.5-.5 1 1 0 01.4-.8L5 17.5l.02-11.089a1 1 0 01.29-.703l1.396-1.411A1 1 0 017.417 4h12.497zM9 11a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z"></path></svg></span>'+noteCountChat+'<span class="_1xfU3">Chat</span></span></a>');
-var theColorIs = $('.iRyVV svg').css("color");
-$("._2Ae1S._2JjnE._2fqBI svg").css("fill", theColorIs);
+var theColorIs2 = $('.iRyVV svg').css("color");
+$("._2Ae1S._2JjnE._2fqBI svg").css("fill", theColorIs2);
 $("._2Ae1S._2JjnE._2fqBI").css({
       "margin-bottom": "-10px"
     });
@@ -96,34 +91,39 @@ $("._2Ae1S._2JjnE._2fqBI").css({
 
 //profile
 var noteCountProfile = '';
-if($("button._31n9h.rDcsd").find("span").hasClass("_1UHKo")){
-    noteCountProfile = '<span class="_1UHKo">' + $("._3ZzBG._3_-De._2Bu5u span._1UHKo").text()+  '</span>' ;
+if($("button._1lJ-D._3MIsm").find("span").hasClass("_3tPpy")){
+    noteCountProfile = '<span class="_3tPpy">' + $("._3GThX.MAP1J._2cZwH span._3tPpy").text()+  '</span>' ;
 }
-$("button._31n9h.rDcsd").remove();
-$("div._3ZzBG._3_-De._2Bu5u").append('<a class="_31n9h rDcsd" href="https://www.deviantart.com/notifications/notes/"><span><span class="_3HH04 _3s0_v YU6Gg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path fill-rule="evenodd" d="M19.914 4a1 1 0 011 1v12.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 0118.5 20h-15a.5.5 0 01-.5-.5 1 1 0 01.4-.8L5 17.5l.02-11.089a1 1 0 01.29-.703l1.396-1.411A1 1 0 017.417 4h12.497zM9 11a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z"></path></svg></span>'+noteCountProfile+'<span class="_3c9b0">Chat</span></span></a>');
-var theColorIs = $('._21ei1 svg').css("color");
-$("._3HH04._3s0_v.YU6Gg svg").css("fill", theColorIs);
+$("button._1lJ-D._3MIsm").remove();
+$("div._3GThX.MAP1J._2cZwH").append('<a class="_1lJ-D _3MIsm" href="https://www.deviantart.com/notifications/notes/"><span><span class="pMlS8 _3DiH6 _2sPW1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19.914 4a1 1 0 011 1v12.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 0118.5 20h-15a.5.5 0 01-.5-.5 1 1 0 01.4-.8L5 17.5l.02-11.089a1 1 0 01.29-.703l1.396-1.411A1 1 0 017.417 4h12.497zM9 11a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z"></path></svg></span>'+noteCountProfile+'<span class="_2UWhz">Chat</span></span></a>');
+var theColorIs3 = $('._21ei1 svg').css("color");
+/*$("._3HH04._3s0_v.YU6Gg svg").css("fill", theColorIs3);
 $("._3HH04._3s0_v.YU6Gg").css({
       "margin-bottom": "-10px"
-    });
+    });*/
 
-$("button.ucOYB._1u2kK._1Q3Tp").remove();
+//Button  Chat on profile
+$("button._3vg-L._1fw_p._2iY-h").remove();
 var user = top.location.pathname.substring(1)
-$("div.tdh7l").append('<a class="ucOYB _1u2kK _1Q3Tp" href="https://www.deviantart.com/notifications/notes/#to='+user.split('/')[0]+'">Note</a>');
-
-
+$("div.-B55x").append('<a class="_3vg-L _1fw_p _2iY-h" href="https://www.deviantart.com/notifications/notes/#to='+user.split('/')[0]+'">Note</a>');
 
 //pictures
 var noteCountPicture = '';
-if($("button._3GQOh._2uHE2").find("span").hasClass("ytR2V")){
-    noteCountPicture = '<span class="ytR2V">' + $(".Rfy8Q._2vTIN._3rpge span.ytR2V").text()+  '</span>' ;
+if($("button._21OYk._6lRyf").find("span").hasClass("_22eC3")){
+    noteCountPicture = '<span class="_22eC3">' + $("._1G6s5._31Gyh.NYiDj span._22eC3").text()+  '</span>' ;
 }
-$("button._3GQOh._2uHE2").remove();
-$("div.Rfy8Q._2vTIN._3rpge").append('<a class="_3GQOh _2uHE2" href="https://www.deviantart.com/notifications/notes/"><span><span class="_1jxju _1UM_Z ysYD1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19.914 4a1 1 0 011 1v12.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 0118.5 20h-15a.5.5 0 01-.5-.5 1 1 0 01.4-.8L5 17.5l.02-11.089a1 1 0 01.29-.703l1.396-1.411A1 1 0 017.417 4h12.497zM9 11a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z"></path></svg></span>'+noteCountPicture+'<span class="_1fSuN">Chat</span></span>');
-var theColorIs = $('._1jxju svg').css("color");
-$("._1jxju._1UM_Z.ysYD1 svg").css("fill", theColorIs);
+$("button._21OYk._6lRyf").remove();
+$("div._1G6s5._31Gyh.NYiDj").append('<a class="_21OYk _6lRyf" href="https://www.deviantart.com/notifications/notes/"><span><span class="_141Tf esWyG fBTLZ"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19.914 4a1 1 0 011 1v12.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 0118.5 20h-15a.5.5 0 01-.5-.5 1 1 0 01.4-.8L5 17.5l.02-11.089a1 1 0 01.29-.703l1.396-1.411A1 1 0 017.417 4h12.497zM9 11a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z"></path></svg></span>'+noteCountPicture+'<span class="_2NYr-">Chat</span></span>');
+/*var theColorIs4 = $('._1jxju svg').css("color");
+$("._1jxju._1UM_Z.ysYD1 svg").css("fill", theColorIs4);*/
 
 
-
+//generl da
+var noteCountdA = '';
+if($("button._3BYRx._14hFt").find("span").hasClass("xgEVQ")){
+    noteCountdA = '<span class="xgEVQ">' + $("._2xoap._1iYeb.EnfXJ span.xgEVQ").text()+  '</span>' ;
+}
+$("button._3BYRx._14hFt").remove();
+$("div._2xoap._1iYeb.EnfXJ").append('<a class="_3BYRx _14hFt" href="https://www.deviantart.com/notifications/notes/"><span><span class="_2FP2V _37ThK _2LwSX"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19.914 4a1 1 0 011 1v12.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 0118.5 20h-15a.5.5 0 01-.5-.5 1 1 0 01.4-.8L5 17.5l.02-11.089a1 1 0 01.29-.703l1.396-1.411A1 1 0 017.417 4h12.497zM9 11a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z"></path></svg></span>'+noteCountdA+'<span class="_1Tbmy">Chat</span></span>');
 
 
