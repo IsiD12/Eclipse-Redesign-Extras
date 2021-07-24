@@ -5,7 +5,7 @@
 // @author       Isi-Daddy
 // @include      https://www.deviantart.com/
 // @include      https://www.deviantart.com/*
-// @version      1.1.15
+// @version      1.1.16
 // @grant GM_getValue
 // @require http://code.jquery.com/jquery-3.4.1.min.js
 // @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
@@ -77,17 +77,16 @@ $("div._2u-H1._28mNT._2ZwRg").append('<a class="_1qPjE _1V7e9" href="https://www
 
 //chat
 var noteCountChat = '';
-if($("button._6bR9h._29ksA").find("span").hasClass("_1XPtL")){
-    noteCountChat = '<span class="_1XPtL">' + $("._3Po3V._3-z6A.Ha0AC span._1XPtL").text()+  '</span>' ;
+if($("button._3Vw-L._1RSIk").find("span").hasClass("_1ez3c")){
+    noteCountChat = '<span class="_1ez3c">' + $(".XWyfm._3KrWg._3NUNO span._1ez3c").text()+  '</span>' ;
 }
-$("button._6bR9h._29ksA").remove();
-$("div._3Po3V._3-z6A.Ha0AC").append('<a class="_6bR9h _29ksA" href="https://www.deviantart.com/notifications/notes/"><span><span class="_2Ae1S _2JjnE _2fqBI"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path fill-rule="evenodd" d="M19.914 4a1 1 0 011 1v12.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 0118.5 20h-15a.5.5 0 01-.5-.5 1 1 0 01.4-.8L5 17.5l.02-11.089a1 1 0 01.29-.703l1.396-1.411A1 1 0 017.417 4h12.497zM9 11a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z"></path></svg></span>'+noteCountChat+'<span class="_1xfU3">Chat</span></span></a>');
+$("button._3Vw-L._1RSIk").remove();
+$("div.XWyfm._3KrWg._3NUNO").append('<a class="_3Vw-L _1RSIk" href="https://www.deviantart.com/notifications/notes/"><span><span class="_1bkAn _36ZlA _1n21K"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19.914 4a1 1 0 011 1v12.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 0118.5 20h-15a.5.5 0 01-.5-.5 1 1 0 01.4-.8L5 17.5l.02-11.089a1 1 0 01.29-.703l1.396-1.411A1 1 0 017.417 4h12.497zM9 11a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z"></path></svg></span>'+noteCountChat+'<span class="zMQNN">Chat</span></span></a>');
 var theColorIs2 = $('.iRyVV svg').css("color");
 $("._2Ae1S._2JjnE._2fqBI svg").css("fill", theColorIs2);
 $("._2Ae1S._2JjnE._2fqBI").css({
       "margin-bottom": "-10px"
     });
-
 
 //profile
 var noteCountProfile = '';
@@ -127,3 +126,9 @@ $("button._3BYRx._14hFt").remove();
 $("div._2xoap._1iYeb.EnfXJ").append('<a class="_3BYRx _14hFt" href="https://www.deviantart.com/notifications/notes/"><span><span class="_2FP2V _37ThK _2LwSX"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19.914 4a1 1 0 011 1v12.586a1 1 0 01-.293.707l-1.414 1.414A1 1 0 0118.5 20h-15a.5.5 0 01-.5-.5 1 1 0 01.4-.8L5 17.5l.02-11.089a1 1 0 01.29-.703l1.396-1.411A1 1 0 017.417 4h12.497zM9 11a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z"></path></svg></span>'+noteCountdA+'<span class="_1Tbmy">Chat</span></span>');
 
 
+
+//Chat schrift
+$("span ._2_n00").remove();
+$("span ._2UWhz").remove();
+$("span ._2NYr-").remove();
+$("span ._1Tbmy").remove();
