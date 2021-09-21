@@ -5,14 +5,15 @@
 // @author       Isi-Daddy
 // @include      https://www.deviantart.com/
 // @include      https://www.deviantart.com/*
-// @version      1.1.16
+// @version      1.1.17
 // @grant GM_getValue
 // @require http://code.jquery.com/jquery-3.4.1.min.js
 // @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
 // @require https://greasyfork.org/scripts/5392-waitforkeyelements/code/WaitForKeyElements.js?version=115012
 
 // ==/UserScript==
-/* timestamp*/
+
+/* timestamp*//*
 waitForKeyElements (
     "time",
     klassentest
@@ -64,7 +65,7 @@ function klassentest (subj) {
         $(".time,.after").css({"visibility": "hidden"});
     });
 }
-
+*/
 
 //feedback
 var noteCount = '';
